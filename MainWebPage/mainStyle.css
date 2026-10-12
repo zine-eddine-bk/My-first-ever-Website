@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(41,41,41);
+    text-align: center;
+}
+p{
+    color:white
+}
+#pre1{
+    color: orange;
+    border: 3px solid orange;
+    border-right: none;    
+    border-left: none;  
+    font-size : 16px;
+    text-align: left;
+}
+h1{
+    color: rgb(207, 17, 17);
+
+}
+h3{
+    color : rgb(169, 122, 122)
+}
+#but2:hover{
+    font-size: 1.1em;
+}
+#but2text:hover{
+    color: rgb(103, 139, 139);
+}

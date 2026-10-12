@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>comment insertion</title>
+      <link rel="icon" type="image/webp" href="comments-icon-design-free-vector.webp">
+      <link rel="stylesheet" href="commentPageStyle.css">
+    </head>
+    <body>
+        <h2 style="background-color:rgb(166, 217, 166)"><u>Insert your informations</u></h2>
+        <form action="index.php" method="post">
+            <lable for="firstname"><i>FirstName</i></lable>
+            <input type="text" id="firstname" placeholder="Ossamma" minlenght="2" maxlength="15" required><br><br>
+
+            <lable for="famillyname"><i>FamillyName</i></lable>
+            <input type="text" id="famillyname" placeholder="Benladin" minlenght="3" maxlength="15"><br><br>
+
+            <lable for="email"><i>Email</i></lable>
+            <input type="email" id="email" placeholder="Bombaclat@gmail.com" minlenght="13"  required><br><br>
+
+            <lable for="password"><i>Password</i></lable>
+            <input type="password" id="password"  minlenght="8" maxlength="15" required><br><br>
+            
+            <lable for="tele"><i>Telephone-nbr</i></lable>
+            <input type="tel" id="tele" placeholder="0556033271" minlenght="10" maxlength="10" ><br><br>
+
+            <lable for="bday"><i>Birth-date</i></lable>
+            <input type="date" id="bday"  required><br><br>
+
+            <lable for="rate"><i>RateMyWeb(0 to 5 stars/Optional)</i></lable>
+            <input type="number" id="rate" min="0" max="5"><br><br>
+
+            <label for="openient"><u>Whats your opinient about this exact page ?</u></label><br>
+            <label for="like">I like</label>
+            <input type="radio" id="like" name="opinient">
+            <label for="nlike">I HATE</label>
+            <input type="radio" id="nlike" name="opinient"><br><br>
+
+            <label id="com" for="comm" style="background-color: rgb(166, 217, 166)"><i>Comment</i></label>
+            <textarea type="comment" id="comm" cols="48" rows="14" required></textarea><br><br><br>
+
+            <input id="reset" class="desition" type="reset">
+            <input id="submit" class="desition" type="submit">
+
+        </form>
+
+    </body>
+</html>

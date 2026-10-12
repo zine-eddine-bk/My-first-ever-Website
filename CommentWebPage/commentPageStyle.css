@@ -1,0 +1,18 @@
+body{
+    background-image: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    color:whitesmoke;
+    text-align:center;
+    
+}
+h2{
+    color:black; 
+}
+#com{
+    color:black;
+}
+.desition:hover{
+    color:rgb(148, 116, 116);
+    font-size: 1.1em;
+}
