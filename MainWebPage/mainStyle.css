@@ -1,3 +1,6 @@
+*{
+    box-sizing : border-box;
+}
 body{
     background-color: rgb(41,41,41);
     text-align: center;
@@ -25,4 +28,45 @@ h3{
 }
 #but2text:hover{
     color: rgb(103, 139, 139);
+}
+.TopButtomLinks{
+    text-decoration: none;
+    color : black;
+}
+.TopButtomLinks:hover{
+    font-size: 1.3em;
+    color:rgba(0, 0, 0, 0.272);
+}
+.TopButtomLinks:hover{
+    font-size: 1.3em;
+    color:rgba(0, 0, 0, 0.272);
+}
+.TopLinks{
+    padding-bottom: 14px;
+    padding-top: 14px;
+    background-color: rgba(165, 42, 42, 0.744);
+}
+#a1{
+    width:25%;
+    padding-right:5%;
+    padding-left:5%;
+    border-right:1px solid black;
+
+}
+#a2{
+    width:25%;
+    padding-right:5%;
+    padding-left:5%;
+    border-right:1px solid black;
+}
+#a3{
+    width:25%;
+    padding-right:5%;
+    padding-left:5%;
+    border-right:1px solid black;
+}
+#a4{
+    width:25%;
+    padding-right:5%;
+    padding-left:5%;
 }
